@@ -1,0 +1,9 @@
+faster-whisper
+ffmpeg-python
+qdrant-client
+langchain
+langchain-google-genai
+langchain-qdrant
+google-generativeai
+python-dotenv
+tqdm
