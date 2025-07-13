@@ -16,3 +16,33 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system that a
 - Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+
+
+## appendices
+
+# 🎬 FFmpeg Installation Guide
+---
+
+## ✅ Windows Installation
+
+1. **Download FFmpeg**:
+   - Visit: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+   - Under “Release builds”, download **`ffmpeg-release-full.7z`** or **`ffmpeg-release-essentials.zip`**
+
+2. **Extract the Archive**:
+   - Use [7-Zip](https://www.7-zip.org/) or WinRAR to extract the file
+   - Extract the contents to `C:\ffmpeg`
+
+3. **Add to System PATH**:
+   - Open:
+     - `Control Panel` → `System` → `Advanced system settings` → `Environment Variables`
+   - Under **System variables**, find `Path` → Click **Edit**
+   - Click **New** and enter: `C:\ffmpeg\bin`
+   - Click **OK** to save
+
+4. **Verify Installation**:
+   - Open Command Prompt and run:
+     ```bash
+     ffmpeg -version
+     ```
