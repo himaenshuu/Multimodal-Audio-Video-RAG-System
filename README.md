@@ -9,17 +9,31 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system that a
 - Answer generation using **Google Gemini Pro**
 - Supports `.mp3`, `.wav`, and `.mp4` files
 
+### 🧰 Tech Stack Used
+
+This project integrates audio/video data with a RAG pipeline using modern tools and frameworks:
+
+| Technology | Logo | Purpose |
+|------------|------|---------|
+| [Python](https://www.python.org/) | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | Backend logic and orchestration |
+| [LangChain](https://www.langchain.com/) | ![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white) | RAG architecture and LLM interface |
+| [Gemini (Google Generative AI)](https://ai.google.dev/) | ![Gemini](https://img.shields.io/badge/Gemini%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white) | LLM and Embeddings |
+| [Qdrant](https://qdrant.tech/) | ![Qdrant](https://img.shields.io/badge/Qdrant-3F3D56?style=for-the-badge&logo=qdrant&logoColor=white) | Vector database for semantic search |
+| [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) | ![Whisper](https://img.shields.io/badge/Faster--Whisper-0066CC?style=for-the-badge&logo=whisper&logoColor=white) | Fast local speech-to-text model |
+| [FFmpeg](https://ffmpeg.org/) | ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white) | Audio extraction from video files |
+| [Jupyter Notebook](https://jupyter.org/) | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) | Interactive development environment |
+
+
 ### 🔧 Requirements
 - Python = 3.10  
 - FFmpeg (added to PATH)  
 - Gemini API Key  
 - Install dependencies:
-```bash
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 
-## appendices
+## Appendices
 
 # 🎬 FFmpeg Installation Guide
 ---
@@ -45,4 +59,4 @@ pip install -r requirements.txt
    - Open Command Prompt and run:
      ```bash
      ffmpeg -version
-     ```
+     
