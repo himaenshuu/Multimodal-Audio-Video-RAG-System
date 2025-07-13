@@ -6,7 +6,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system that a
 - Transcribe audio using **Faster-Whisper**
 - Extract and convert audio from videos via **FFmpeg**
 - Semantic retrieval using **LangChain + Qdrant**
-- Answer generation using **Google Gemini Pro**
+- Answer generation using **Google Gemini flash ** and ** Semantic Search **
 - Supports `.mp3`, `.wav`, and `.mp4` files
 
 ### 🧰 Tech Stack Used
