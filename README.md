@@ -2,16 +2,37 @@
 
 This project implements a **Retrieval-Augmented Generation (RAG)** system that accepts audio or video input, transcribes it, and performs question-answering using **Google Gemini** and **Qdrant**.
 
-### 🚀 Features
-- Transcribe audio using **Faster-Whisper**
-- Extract and convert audio from videos via **FFmpeg**
-- Semantic retrieval using **LangChain + Qdrant**
-- Answer generation using **Google Gemini flash ** and ** Semantic Search **
-- Supports `.mp3`, `.wav`, and `.mp4` files
+## 🚀 Features
+
+### 🎯 Core Capabilities
+- **RAG (Retrieval-Augmented Generation)** pipeline using LangChain and Gemini
+- Support for **both audio and video input**
+- Semantic search backed by **Qdrant** vector database
+- Dual response generation:
+  - 🔍 **Search-based context**
+  - 🤖 **LLM-powered Gemini response**
+
+### 🗣️ Audio Processing
+- Transcription of `.mp3` or `.wav` files using **Faster-Whisper**
+- High-quality offline transcription with fast performance
+
+### 🎥 Video Handling
+- Automatic audio extraction from videos using **FFmpeg**
+- Full transcription of video content for downstream processing
+
+### 🧠 Embedding and Search
+- Semantic embedding using **Google Generative AI (Gemini embeddings)**
+- Vector storage and similarity search using **Qdrant**
+
+### 📦 Lightweight & Offline-Friendly
+- Can run entirely **locally** (without OpenAI or cloud dependencies)
+- Ideal for constrained environments with privacy concerns
+
+### 📚 Interactive Development
+- Built in **Jupyter Notebook** for transparency, experimentation, and research workflows
+
 
 ### 🧰 Tech Stack Used
-
-This project integrates audio/video data with a RAG pipeline using modern tools and frameworks:
 
 | Technology | Logo | Purpose |
 |------------|------|---------|
